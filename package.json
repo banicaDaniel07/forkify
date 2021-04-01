@@ -1,0 +1,23 @@
+{
+  "name": "moms-recipes",
+  "version": "1.0.0",
+  "description": "Recipe aplication",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "Daniel Banica",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.0-beta.2",
+    "parcel": "^2.0.0-beta.2",
+    "transformer-js": "0.0.9"
+  },
+  "dependencies": {
+    "core-js": "^3.9.1",
+    "fractional": "^1.0.0",
+    "parser": "^0.1.4",
+    "regenerator-runtime": "^0.13.7"
+  }
+}
